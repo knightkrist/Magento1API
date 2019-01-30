@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+ 
+<config>
+    <modules>
+        <Marvel_Heroes>
+            <version>0.1.0</version>
+        </Marvel_Heroes>
+    </modules>    
+    <frontend>
+        <routers>
+            <Marvel_Heroes_NewRouterName>
+                <use>standard</use>
+                <args>
+                    <module>Marvel_Heroes</module>
+                    <frontName>marvel-heroes</frontName>
+                </args>
+            </Marvel_Heroes_NewRouterName>
+        </routers>
+    </frontend>
+      
+</config>
